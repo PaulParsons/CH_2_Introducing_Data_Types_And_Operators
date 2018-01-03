@@ -14,4 +14,7 @@ public class AboutMe {
 	 * your data.
 	 */
 
+		public static void whoAmI(){
+			System.out.print("Paul\nOlder than Case\nmale");
+		}
 }

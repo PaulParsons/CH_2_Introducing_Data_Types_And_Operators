@@ -10,4 +10,13 @@ public class MilesToMeters {
 	 * Note: 1 mile = 1609 meters
 	 */
 
+		public static long metersToTheSun(){
+			long milesToSun = 92955807;
+			long milesToMeters = 1609;
+			long metersToSun = 0;
+
+			metersToSun = milesToSun * milesToMeters;
+
+			return(metersToSun);
+		}
 }

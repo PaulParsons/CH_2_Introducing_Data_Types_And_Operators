@@ -5,7 +5,13 @@ public class InitializingVariables {
 	 * Call your method returnString.
 	 */
 
-	//TODO write returnString
+
+
+	public static String returnString(){
+		String randomStr = "ABC";
+		return randomStr;
+
+	}
 
 
 	/*
@@ -13,7 +19,10 @@ public class InitializingVariables {
 	 * Call your method returnLong.
 	 */
 
-	//TODO write returnLong
+	public static long returnLong(){
+		long longVar = 0;
+		return(longVar);
+	}
 
 
 	/*
@@ -21,7 +30,10 @@ public class InitializingVariables {
 	 * Call your method returnCharacter AND
 	 * In the class InitializeVariablesTest, add a unit test for this method.
 	 */
-
+	public static char returnCharacter(){
+	char c = 'a';
+	return (c);
+	}
 	//TODO write returnCharacter
 
 }
