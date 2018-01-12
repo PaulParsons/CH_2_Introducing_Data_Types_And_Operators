@@ -34,6 +34,4 @@ public class InitializingVariables {
 	char c = 'a';
 	return (c);
 	}
-	//TODO write returnCharacter
-
 }
